@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // calculate all places where type not specified
+    // we can use any if needed, just specify 'any'
+    "noImplicitAny": true,
+    "module": "ESNext",
+    // which specification compiles to support most browsers
+    "target": "es5",
+    "jsx": "react-jsx",
+    // allows not only ts, but js also
+    "allowJs": true,
+    "moduleResolution": "node",
+//    "baseUrl": ".",
+    // esModuleInterop - works with packages, which use
+    // common js how usual  with (require module.export) = common js
+    "esModuleInterop": true,
+    // allowSyntheticDefaultImports
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+    }
+  }
+}
