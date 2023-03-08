@@ -6,16 +6,15 @@ import {useTheme} from "app/providers/ThemeProvider";
 import AppRouter from "./providers/router/ui/AppRouter";
 import {Navbar} from "widgets/Navbar";
 
-// 12 completed
+// lesson 13 - 13:08
 
 const App = () => {
-    const {theme, toggleTheme} = useTheme();
+    const {theme} = useTheme();
 
     return (
         <div className={classNames('app', {hovered: true, selected: false}, [theme])}>
             <Navbar/>
             <AppRouter/>
-            <button onClick={toggleTheme}>TOGGLE</button>
         </div>
     );
 };
