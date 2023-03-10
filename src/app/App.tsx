@@ -9,7 +9,7 @@ import {LangSwitcher} from "shared/ui/LangSwitcher/ui/LangSwitcher";
 
 
 
-// lesson 15 - 11:20
+// lesson 16 completed
 
 const App = () => {
     const {theme} = useTheme();
