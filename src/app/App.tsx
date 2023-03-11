@@ -7,13 +7,21 @@ import { Sidebar } from 'widgets/Sidebar';
 import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
-//  19 completed
+//  21 3:42
 
 function App() {
     const { theme } = useTheme();
 
     return (
-        <div className={classNames('app', { hovered: true, selected: false }, [theme])}>
+        <div
+            className={
+                classNames(
+                    'app',
+                    { hovered: true, selected: false },
+                    [theme],
+                )
+            }
+        >
             <Suspense fallback="">
                 <Navbar />
                 <LangSwitcher />
