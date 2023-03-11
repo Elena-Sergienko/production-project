@@ -7,7 +7,7 @@ import { Sidebar } from 'widgets/Sidebar';
 import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
-// lesson 16 completed
+//  19 completed
 
 function App() {
     const { theme } = useTheme();
