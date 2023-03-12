@@ -7,7 +7,7 @@ import { Sidebar } from 'widgets/Sidebar';
 import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
-//  21 3:42
+//  21 done
 
 function App() {
     const { theme } = useTheme();
