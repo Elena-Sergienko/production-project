@@ -2,5 +2,8 @@
   "Language": "Rus",
   "Test example": "Test example",
   "Translate": "Translate",
-  "Page not found": "Page not found"
+  "Page not found": "Page not found",
+  "Something went wrong": "Something went wrong",
+  "Reload the Page": "Reload the Page",
+  "throw error": "throw error"
 }

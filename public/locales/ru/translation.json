@@ -2,5 +2,8 @@
   "Language": "English",
   "Test example": "Тестовый пример",
   "Translate": "Перевод",
-  "Page not found": "Страница не найдена"
+  "Page not found": "Страница не найдена",
+  "Something went wrong": "Произошла непредвиденная ошибка",
+  "Reload the Page": "Обновить страницу",
+  "throw error": "throw error"
 }
