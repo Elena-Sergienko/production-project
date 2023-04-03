@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense } from 'react';
 import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
@@ -8,7 +8,7 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
 // snippet rc - component tsx
-//  21 done
+//  22 done
 
 function App() {
     const { theme } = useTheme();
