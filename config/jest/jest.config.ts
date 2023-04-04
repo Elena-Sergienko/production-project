@@ -22,6 +22,9 @@ export default {
     moduleDirectories: [
         'node_modules',
     ],
+    modulePaths: [
+        '<rootDir>src',
+    ],
     moduleFileExtensions: [
         'js',
         'jsx',
@@ -31,6 +34,10 @@ export default {
         'node',
     ],
     rootDir: '../../',
+    setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
+    moduleNameMapper: {
+        '\\.s?css$': 'identity-obj-proxy',
+    },
     testMatch: [
         '**/__tests__/**/*.[jt]s?(x)',
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
