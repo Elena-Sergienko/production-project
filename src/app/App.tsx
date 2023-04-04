@@ -8,7 +8,7 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
 // snippet rc - component tsx
-//  22 done
+//  23  done
 
 function App() {
     const { theme } = useTheme();
