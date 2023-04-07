@@ -8,7 +8,8 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
 // snippet rc - component tsx
-//  24 11-55
+//  TODO: 25 - delete dir: src/stories
+//  25 26:59
 
 function App() {
     const { theme } = useTheme();
