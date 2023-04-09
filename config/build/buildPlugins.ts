@@ -1,5 +1,8 @@
+// @ts-ignore
 import HTMLWebpackPlugin from 'html-webpack-plugin';
+// @ts-ignore
 import webpack from 'webpack';
+// @ts-ignore
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import { BuildOptions } from './types/config';
