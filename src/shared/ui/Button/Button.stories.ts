@@ -34,7 +34,6 @@ export const Clear: Story = {
     },
 };
 
-
 export const Outline: Story = {
     args: {
         children: 'Text',
