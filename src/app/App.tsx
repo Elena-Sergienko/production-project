@@ -1,5 +1,4 @@
 import React, { Suspense } from 'react';
-import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
 import { Navbar } from 'widgets/Navbar';
@@ -8,7 +7,7 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher/ui/LangSwitcher';
 import AppRouter from './providers/router/ui/AppRouter';
 
 // snippet rc - component tsx
-//  27 8:05
+//  29 33:07
 
 function App() {
     const { theme } = useTheme();
@@ -18,7 +17,10 @@ function App() {
             className={
                 classNames(
                     'app',
-                    { hovered: true, selected: false },
+                    {
+                        hovered: true,
+                        selected: false,
+                    },
                     [theme],
                 )
             }

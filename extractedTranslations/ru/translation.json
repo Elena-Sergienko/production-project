@@ -1,10 +1,13 @@
 {
   "About": "About",
+  "Enter": "Enter",
   "Language": "Language",
+  "Main": "Main",
   "Main Page": "Main Page",
   "Not found": "Not found",
   "Page not found": "Page not found",
   "Reload the Page": "Обновить страницу",
   "Something went wrong": "Произошла непредвиденная ошибка",
-  "throw error": "throw error"
+  "throw error": "throw error",
+  "toggle": "toggle"
 }
