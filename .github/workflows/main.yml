@@ -2,9 +2,9 @@ name: linting, testing, building
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   push:
-    branches: [ cipipeline, master ]
+    branches: [ master ]
   pull_request:
-    branches: [ cipipeline, master ]
+    branches: [ master ]
 jobs:
   pipeline:
     runs-on: ubuntu-latest
@@ -21,10 +21,14 @@ jobs:
         run: npm install
       - name: build project
         run: npm run build:prod
+        if: always()
       - name: linting typescript
         run: npm run lint:ts
+        if: always()
       - name: linting css
         run: npm run lint:scss
+        if: always()
       - name: unit testing
         run: npm run test:unit
+        if: always()
 
